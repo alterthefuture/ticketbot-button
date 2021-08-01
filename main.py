@@ -26,7 +26,7 @@ async def ticketcreate(ctx):
     while True:
         respone = await client.wait_for("button_click")
         if respone.channel.id == ctx.channel.id:
-            category_id = 870779587766927400
+            category_id = #category for tickets here
 
             for category in ctx.guild.categories:
                 if category.id == category_id:
@@ -42,4 +42,4 @@ async def ticketcreate(ctx):
 
             await respone.respond(type=6)
             
-client.run("ODcwNTAxMjQxOTgwMDY3ODYx.YQNrdQ.AoCmiCKxpmH1l3Il4SyZhq86yfk")
+client.run("token-here")
