@@ -37,7 +37,7 @@ async def ticketcreate(ctx):
             await ticket_channel.set_permissions(respone.user, read_messages=True,send_messages=True)
 
             embed=discord.Embed(title="Ticket Opened",description=f"Support will be with you shortly, Please be patient.",color=discord.Color.green(),timestamp=datetime.datetime.utcnow())
-            embed.set_footer(text="Bot Made By CatNinja#0001",icon_url=client.user.avatar_url)
+            embed.set_footer(text="Bot Made By ritz#8888",icon_url=client.user.avatar_url)
             await ticket_channel.send(f"{respone.user.mention} Welcome", embed=embed)
 
             await respone.respond(type=6)
