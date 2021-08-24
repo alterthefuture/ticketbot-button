@@ -17,7 +17,7 @@ async def on_ready():
 async def ticketcreate(ctx):
     embed=discord.Embed(description="To create a ticket press the button 📪",color=discord.Color.green(),timestamp=ctx.message.created_at)
     embed.set_author(name=f"General Support")
-    embed.set_footer(text="Bot Made By CatNinja#0001",icon_url=client.user.avatar_url)
+    embed.set_footer(text="Bot Made By ritz#8888",icon_url=client.user.avatar_url)
 
     await ctx.send(embed=embed,components=[
         Button(style=ButtonStyle.grey, label = "Create Ticket", emoji="📪")
